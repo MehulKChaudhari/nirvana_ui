@@ -1,6 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
 import textlogo from "../../Assets/textlogo.png";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
   return (
@@ -19,6 +20,9 @@ export default function LandingPage() {
           style={{width: '732px', height: '276px', border:'0', transform: 'scale(1)', overflow:'hidden'}}
           sandbox="allow-scripts allow-same-origin"
         ></iframe>
+      </div>
+      <div className="Landing__documentation-link">
+        <p> Now 10+ components!</p> <Link to="/" ><button>Documentation</button> </Link>
       </div>
     </div>
   );
