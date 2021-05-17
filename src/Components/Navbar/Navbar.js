@@ -1,14 +1,17 @@
 import React from "react";
+import './Navbar.css'
 import { NavLink } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
 import { GoBook } from "react-icons/go";
 import { CgProfile } from "react-icons/cg";
+import logo from '../../Assets/logo.png'
+
 
 export const Navbar = () => {
   return (
     <div className="Navbar__container">
       <div className="logo">
-        <img />
+        <img src={logo} alt="logo"/>
       </div>
       <nav className="side-nav__list">
         <NavLink

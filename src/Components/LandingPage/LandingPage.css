@@ -5,6 +5,13 @@
     font-weight: 100;
     line-height: 1.4;
 }
+.landing-page__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
 
 p{
     display: inline-block;
