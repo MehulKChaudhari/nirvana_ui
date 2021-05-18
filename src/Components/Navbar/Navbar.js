@@ -26,7 +26,7 @@ export const Navbar = () => {
         <NavLink
           activeClassName="activeLink"
           style={{ textDecoration: "none" }}
-          to="/documentation"
+          to="/docs"
           className="side-nav__link"
         >
           <GoBook className="nav-icon" />

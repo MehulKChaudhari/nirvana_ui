@@ -1,17 +1,16 @@
-.header__container{
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
+.header__container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
 }
 
-.header__links{
-    display: flex;
-    justify-content: flex-end;
-    justify-self: space-between;
-
+.header__links {
+  display: flex;
+  justify-content: flex-end;
+  justify-self: space-between;
 }
 .social {
-  color: blanchedalmond;
+  color: rgb(233, 232, 232);
   cursor: pointer;
   text-decoration: none;
   display: flex;
