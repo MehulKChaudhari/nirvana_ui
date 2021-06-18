@@ -11,16 +11,25 @@ export const Header = () => {
   return (
     <div className="header__container">
       <div className="header__links">
-        <a href="https://twitter.com/MehulKChaudhari" className="social">
+        <a
+          href="https://twitter.com/MehulKChaudhari"
+          target="_blank"
+          className="social"
+        >
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
         <a
           href="https://www.linkedin.com/in/mehul-chaudhari-3367b6174/"
+          target="_blank"
           className="social"
         >
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
-        <a href="https://www.github.com/mehulkchaudhari/" className="social">
+        <a
+          href="https://github.com/MehulKChaudhari/nirvana_ui"
+          target="_blank"
+          className="social"
+        >
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
       </div>

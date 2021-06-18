@@ -7,12 +7,18 @@
 .header__links {
   display: flex;
   justify-content: flex-end;
-  justify-self: space-between;
+  align-items: flex-end;
+  gap: 0.5rem;
 }
 .social {
-  color: rgb(233, 232, 232);
+  color: rgb(253, 244, 209);
   cursor: pointer;
   text-decoration: none;
-  display: flex;
-  justify-items: space-between;
+  font-size: 14px;
+}
+
+.social:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
 }

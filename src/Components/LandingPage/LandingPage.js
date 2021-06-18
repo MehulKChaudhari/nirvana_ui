@@ -7,7 +7,10 @@ export default function LandingPage() {
   return (
     <div className="landing-page__container">
       <div className="landing-page__text-logo">
-        <img src={textlogo} alt="nirvana_ui" />
+        {" "}
+        <p>
+          <img src={textlogo} alt="nirvana_ui" />
+        </p>
         <h2 className="landing-page__heading">
           Simple, unobtrusive components for modern web!
         </h2>

@@ -7,8 +7,10 @@ body {
   height: 100vh;
 }
 .Navbar {
-  flex-grow: 1;
-  border-right: 1rem solid rgb(197, 195, 195);
+  flex-grow: 0.75;
+  border-right: 0.2rem solid rgb(197, 195, 195);
+  width: 12vw;
+  flex-shrink: 2;
 }
 
 .App {
@@ -16,8 +18,5 @@ body {
   flex-direction: column;
   flex-grow: 3;
   padding: 2rem;
-}
-.main {
-  display: flex;
-  justify-content: center;
+  /* flex-shrink: 1; */
 }

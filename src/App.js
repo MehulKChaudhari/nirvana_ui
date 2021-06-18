@@ -2,8 +2,9 @@ import "./App.css";
 import { Header } from "./Components/Header/Header";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import { Navbar } from "./Components/Navbar/Navbar";
-import { Routes, Route, Router } from "react-router-dom";
-import Documentation from "./Components/Documenation/Documentation";
+import { Routes, Route } from "react-router-dom";
+import { Documentation } from "./Components/Documenation/Documentation";
+import Alert from "./Content/Alert";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
           <div className="main">
             <Routes>
               <Route exact path="/" element={<LandingPage />} />
-              <Route exact path="/docs" element={<Documentation />} />
+              <Route path="/docs" element={<Documentation />}>
+                <Route path="/docs/:alert" component={<Alert/>} />
+              </Route>
             </Routes>
           </div>
         </div>
