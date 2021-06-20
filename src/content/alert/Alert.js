@@ -1,10 +1,15 @@
 import React from "react";
-import "../Styles/Styles.css";
+import "../../styles/Styles.css";
+
+
 const Alert = () => {
   return (
     <div className="">
-      <h1 className="text-white">Alerts</h1>\
-      <p></p>
+      <h1 className="text-white">Alerts</h1>
+      <p>
+        Alert are used to give feedback to users Like if the task is successful,
+        there's an error, a warning , or there's some Information.
+      </p>
       <div class="alert-container">
         <div class="alert alert-success" role="alert">
           <i class="fa fa-check-circle fa-2x"> </i>

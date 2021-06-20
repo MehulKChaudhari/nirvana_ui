@@ -1,10 +1,10 @@
 import "./App.css";
-import { Header } from "./Components/Header/Header";
-import LandingPage from "./Components/LandingPage/LandingPage";
-import { Navbar } from "./Components/Navbar/Navbar";
+import { Header } from "./components/header/Header";
+import LandingPage from "./components/landingPage/LandingPage";
+import { Navbar } from "./components/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
-import { Documentation } from "./Components/Documenation/Documentation";
-import Alert from "./Content/Alert";
+import { Documentation } from "./components/documenation/Documentation";
+import Alert from "./content/alert/Alert";
 
 function App() {
   return (
