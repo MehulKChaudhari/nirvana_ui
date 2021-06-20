@@ -1,0 +1,20 @@
+.documentation__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.documentation__heading {
+  color: #01b7ee;
+  padding-bottom:  2rem; 
+}
+
+.components__navbar {
+  display: flex;
+  width: 15vw;
+}
+
+.documentation__main{
+  display: flex;
+  flex-direction: column;
+}
